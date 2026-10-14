@@ -1,1 +1,0 @@
-import{co as c}from"./index-cb74cccf.js";import{d as o}from"./index-55e72bca.js";function u(){const t=c();return{hasPermission(s,a=!0){if(!s)return a;const e=t.permissionCodes,r=Array.isArray(s)?s:[s];return e.includes("*:*:*")||r.some(n=>e.includes(n))}}}const d=()=>o.get({url:"/system/dict/data/all"}),l=t=>o.get({url:`/system/dict/data/type/${t.code}`});export{l as a,d as g,u};
