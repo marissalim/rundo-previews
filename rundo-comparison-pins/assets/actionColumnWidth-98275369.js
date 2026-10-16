@@ -1,0 +1,1 @@
+import{m as c}from"./useTable-df0b80b8.js";const r=16,A=8,d=16,f=2;function E(n,t){const o=getComputedStyle(document.body).fontFamily,e=`14px ${o}`,a=n.reduce((i,m)=>i+Math.ceil(c(m,e))+r,0)+A,s=t?Math.ceil(c(t,`500 14px ${o}`))+d+f:0;return Math.max(a,s)}export{E as f};
